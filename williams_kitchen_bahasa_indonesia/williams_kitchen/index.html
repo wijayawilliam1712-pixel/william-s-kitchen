@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="William's Kitchen — hidangan lezat untuk setiap momen.">
+  <title>William's Kitchen | Restoran</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Navigasi utama">
+      <a class="brand" href="#beranda" aria-label="William's Kitchen, beranda">
+        <img src="logo.png" alt="Logo William's Kitchen">
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Buka menu" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#beranda">Beranda</a>
+        <a href="#tentang">Tentang Kami</a>
+        <a href="#menu">Daftar Menu</a>
+        <a href="#ulasan">Ulasan</a>
+        <a href="#kontak">Kontak</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="beranda">
+      <div class="hero-shade"></div>
+      <div class="hero-content container">
+        <p class="eyebrow">SELAMAT DATANG DI WILLIAM'S KITCHEN</p>
+        <h1>Hidangan istimewa,<br><span>kenangan tak terlupakan.</span></h1>
+        <p>Nikmati sajian pilihan yang dibuat dari bahan berkualitas dan disiapkan dengan sepenuh hati.</p>
+        <a class="button" href="#menu">Lihat Daftar Menu</a>
+      </div>
+    </section>
+
+    <section class="about section container" id="tentang">
+      <div class="about-photo" role="img" aria-label="Suasana meja makan restoran"></div>
+      <div class="about-copy">
+        <p class="eyebrow">TENTANG KAMI</p>
+        <h2>Selamat datang di meja kami.</h2>
+        <p>William's Kitchen hadir untuk menyajikan makanan lezat dalam suasana yang hangat dan nyaman. Kami percaya makanan yang baik bukan hanya soal rasa, tetapi juga tentang kebersamaan.</p>
+        <p>Setiap hidangan disiapkan dengan memperhatikan kualitas bahan, cita rasa, dan kepuasan pelanggan.</p>
+      </div>
+    </section>
+
+    <section class="menu-section section" id="menu">
+      <div class="container">
+        <p class="eyebrow">PILIHAN FAVORIT</p>
+        <h2>Menu Andalan Kami</h2>
+        <p class="section-intro">Pilih hidangan favorit untuk menemani harimu.</p>
+        <div class="menu-grid">
+          <article class="menu-card">
+            <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=900" alt="Salad segar dalam mangkuk">
+            <div class="menu-info"><h3>Salad Sayuran Segar</h3><p>Sayuran segar dengan saus racikan khusus.</p><span>Rp35.000</span></div>
+          </article>
+          <article class="menu-card">
+            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=900" alt="Pizza dengan aneka topping">
+            <div class="menu-info"><h3>Pizza Keju Spesial</h3><p>Pizza hangat dengan taburan keju melimpah.</p><span>Rp65.000</span></div>
+          </article>
+          <article class="menu-card">
+            <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=900" alt="Hidangan panggang">
+            <div class="menu-info"><h3>Hidangan Panggang</h3><p>Hidangan panggang dengan bumbu pilihan.</p><span>Rp58.000</span></div>
+          </article>
+        </div>
+        <p class="note">*Nama menu dan harga di atas merupakan contoh dan dapat disesuaikan.</p>
+      </div>
+    </section>
+
+    <section class="quote-section">
+      <div class="container quote-inner">
+        <p class="eyebrow">DIBUAT DENGAN SEPENUH HATI</p>
+        <h2>Makanan lezat, suasana hangat, kenangan hebat.</h2>
+      </div>
+    </section>
+
+    <section class="contact section container" id="kontak">
+      <p class="eyebrow">HUBUNGI KAMI</p>
+      <h2>Kami menantikan kedatanganmu!</h2>
+      <p>Ingin bertanya atau mengetahui informasi lebih lanjut? Hubungi kami melalui informasi berikut.</p>
+      <div class="contact-grid">
+        <div><strong>Alamat</strong><span>jalandimanaajaasalsamadia</span></div>
+        <div><strong>Telepon / WhatsApp</strong><span>081256782620</span></div>
+        <div><strong>Instagram</strong><span>@williamskitchen</span></div>
+        <div><strong>Jam Buka</strong><span>Senin–Minggu, 10.00–22.00</span></div>
+      </div>
+    </section>
+
+    <section class="reviews section" id="ulasan">
+      <div class="container">
+        <p class="eyebrow">KATA PELANGGAN</p>
+        <h2>Pengalaman Mereka</h2>
+        <div class="review-grid">
+          <article class="review-card"><div class="stars">★★★★★</div><p>"Makanannya enak dan tempatnya nyaman untuk berkumpul bersama keluarga."</p><strong>— Pelanggan 1</strong></article>
+          <article class="review-card"><div class="stars">★★★★★</div><p>"Pilihan menunya menarik. Pelayanannya juga ramah."</p><strong>— Pelanggan 2</strong></article>
+          <article class="review-card"><div class="stars">★★★★★</div><p>"Suasananya hangat dan hidangannya disajikan dengan baik."</p><strong>— Pelanggan 3</strong></article>
+        </div>
+        <p class="note">*Ulasan di atas adalah contoh untuk keperluan desain.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <img src="logo.png" alt="Logo William's Kitchen">
+    <p>Hidangan lezat untuk momen istimewa.</p>
+    <p class="copyright">© <span id="year"></span> William's Kitchen. Hak cipta dilindungi.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
